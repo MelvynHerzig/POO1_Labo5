@@ -1,6 +1,3 @@
-import javax.imageio.stream.ImageInputStream;
-import java.util.Arrays;
-
 /**
  * Class implémentant des matrices de taille personnalisable.
  * Le contenu est défini modulo N.
