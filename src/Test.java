@@ -93,8 +93,8 @@ public class Test
         try
         {
             System.out.println("Test de matrice avec un modulo incorrecte :");
-            Matrice badModulus = new Matrice(
-                    new int[][]{{1, 2, 3}, {2, 3, 4}}, 0);
+            Matrice badModulus = new Matrice( new int[][]{{1, 2, 3}, {2, 3, 4}},
+                                             0);
         }
         catch (RuntimeException e)
         {
@@ -106,7 +106,7 @@ public class Test
         try
         {
             System.out.println("Test d'une opération avec un modulo différent" +
-                    " :");
+                               " :");
             Matrice m1 = new Matrice(2, 5);
             Matrice m2 = new Matrice(5, 4);
 
@@ -156,8 +156,8 @@ public class Test
      * Fonction principale de test et entrée du programme.
      *
      * @param args Dimensions et module des matrices à créer
-     * @throws IllegalArgumentException Dans le cas d'une dimension négative où
-     *                                  d'un modulo inférieur à 1.
+     * @throws IllegalArgumentException Si un argument manque.
+     * @throws NumberFormatException Si les argument ne sont pas des entiers.
      */
     public static void main(String[] args)
     {

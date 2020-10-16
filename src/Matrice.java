@@ -1,6 +1,7 @@
 /**
  * Class implémentant des matrices de taille personnalisable.
  * Le contenu est défini modulo N.
+ * Les matrices peuvent être additionnées, soustraintes et multipliées.
  *
  * @author Forestier Quentin, Herzig Melvyn
  * @version 14.10.2020
@@ -51,7 +52,7 @@ public class Matrice
     }
 
     /**
-     * Constructeur créée l'objet matrice d'après le tableau bidimensionnel
+     * Constructeur crée l'objet matrice d'après le tableau bidimensionnel
      * en paramètre. Corrige son contenu d'après le module.
      *
      * @param aMatrice Matrice à intégrer.
@@ -109,9 +110,9 @@ public class Matrice
     }
 
     /**
-     * Assemble les caractéristiques de la matrice pour les afficher.
+     * Affiche le contenu de la matrice.
      *
-     * @return String formaté avec les caractéristiques de la matrice.
+     * @return String de la matrice.
      */
     @Override
     public String toString()
