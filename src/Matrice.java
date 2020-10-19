@@ -168,7 +168,7 @@ public class Matrice
      * Fonction principale de génération d'une matrice issue de deux matrices
      * combinées, la matrice courante et la matrice m.
      *
-     * @param m        Matrice, seconde opérande.
+     * @param m        Matrice (tableau d'entier 2D), seconde opérande.
      * @param operator Opération à appliquer entre les éléments Amn Bmn.
      * @return Retourne la matrice résultante de l'opération.
      */

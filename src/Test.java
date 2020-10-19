@@ -1,6 +1,6 @@
 /**
  * Classe de test pour la classe Matrice.
- * Il est nécessaire d'entrer les arguments M1 N1 M2 N2 I
+ * Il est nécessaire d'entrer les arguments M1 N1 M2 N2 P
  * Les arguments correspondent respectivement à la heuteur largeur
  * de la première matrice, hauteur largeur de la seconde matrice et
  * le modulo qu'elles respectent.
@@ -169,8 +169,6 @@ public class Test
         int N2 = Integer.parseInt(args[3]);
 
         int modulus = Integer.parseInt(args[4]);
-
-        // Tests selon donnée.
 
         System.out.println("------------ Test de la donnée ------------");
         testStatic();
